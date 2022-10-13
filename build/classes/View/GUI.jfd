@@ -1,0 +1,188 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.10" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :::p, par l {seq l {comp jLabel1:::p::p, space :0:0:x}, comp myboard::l:::x, comp jSeparator6::l:::x, seq l {par l {seq {comp jButton1:::p:91:p, space :p:22:p}, seq t {comp jButton15:::p:91:p, space s:::p}}, comp jSeparator1:::p:10:p, space :p:2:p, par l:::p {comp jButton5:::::x, comp jButton2:::p:127:p}, space u:::p, comp jSeparator2:::p:10:p, space :::p, par l:::p {comp jButton10:::::x, comp jButton11::::96:x}, space :p:10:p, comp jSeparator3:::p:10:p, space :::p, par l {seq l {comp jButton13:::p:119:p, space :::p, comp jSeparator4:::p:10:p}, seq l {comp jButton12:::p:119:p, space :::p, comp jSeparator7:::p:10:p}}, space :::p, par l {comp jButton6:::p:130:p, comp jButton14::l:p:130:p}, space :::p, comp jSeparator8:::p:10:p, space :::p, par l {seq {comp jButton18::::144:x, space :p:14:p}, seq t {comp jButton7:::::x, space s:::p}}, comp jSeparator9:::p:10:p, space :p:28:p, par t {comp jButton8:::p:99:p, comp jButton9:::p:99:p}, space :p:32:p}, seq l {comp jColorChooser1:::p:507:p, space :::p, par l {seq {comp jCheckBox1:::p::p, space :p:88:p, par t {seq t {par l:::p {seq l {comp jButton16:::p:107:p, space s:::p, comp sizeOfBrush:::p:107:p}, seq l {par t:::p {comp jButton20::::107:x, comp jButton3::::107:x}, par l {seq l {space s:::p, comp jButton19:::p:107:p}, seq {space :p:20:p, comp jButton21:::::x}}}}, space :p:2:p}, seq l {comp jButton17:::p:109:p, space s:::p, comp jButton4:::p:107:p}}, space :0:0:x}, comp jSeparator5:::::x}}}}}"
+			"$verticalGroup": "par l {seq l {comp myboard:::p::p, space u:::p, comp jSeparator6:::p:10:p, space u:::p, par l:::p {seq t {comp jButton7:::p:35:p, space :::x, comp jButton18:::p:39:p}, seq l {comp jButton10:::p:38:p, space u:::p, comp jButton11:::p:35:p}, comp jSeparator7:::p:85:p, seq {comp jButton13:::p:39:p, space :::p, comp jButton12:::p:36:p}, comp jSeparator3:::p:85:p, seq l {comp jButton1:::p:42:p, space u:::p, comp jButton15:::p:30:p}, comp jSeparator2::l:p:85:p, comp jSeparator4::l:p:85:p, seq {comp jButton8:::p:34:p, space u:::p, comp jButton9:::p::p}, seq l {comp jButton6:::p:39:p, space :::x, comp jButton14:::p:39:p}, comp jSeparator9::l:p:85:p, comp jSeparator8::l:p:85:p, seq l {comp jButton2:::p:44:p, space :::p, comp jButton5:::p:35:p}, comp jSeparator1::l:p:85:p}, space :p:6:p, par l {seq {comp jSeparator5:::p:10:p, space :::p, par b {comp jButton4::b:p::p, comp jButton17::b:p::p}, space :p:11:p, par b {comp jButton21::b:p::p, comp jButton20::b:p::p}, space :::p, par b {comp jButton3::b:p::p, comp jButton19::b:p::p}, space :p:31:p, par b {comp jButton16::b:p:39:p, comp sizeOfBrush::b:p::p, comp jCheckBox1::b:p::p}}, comp jColorChooser1:::p:209:p}, space s:::x, comp jLabel1:::p::p}}"
+		} ) {
+			name: "this"
+			"defaultCloseOperation": 3
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton1"
+				"text": "Line"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton1ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton2"
+				"text": "Rectangle"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton2ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JColorChooser" ) {
+				name: "jColorChooser1"
+				"color": new java.awt.Color( 0, 0, 0, 255 )
+				"cursor": new java.awt.Cursor( 0 )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "jColorChooser1MouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "jCheckBox1"
+				"text": "Fill"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jCheckBox1ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton5"
+				"text": "Rounded Rectangle"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton5ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "jSeparator1"
+				"orientation": 1
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "jSeparator2"
+				"orientation": 1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton6"
+				"text": "Sector"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton6ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton7"
+				"text": "Triangle"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton7ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "jSeparator3"
+				"orientation": 1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton10"
+				"text": "Circle"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton10ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "jSeparator4"
+				"orientation": 1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton11"
+				"text": "Ellipse"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton11ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton12"
+				"text": "Diamond"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton12ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton13"
+				"text": "Polygon"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton13ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "jLabel1"
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "jSeparator5"
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "jSeparator6"
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "jSeparator7"
+				"orientation": 1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton8"
+				"text": "Undo"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton8ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton9"
+				"text": "Redo"
+				"preferredSize": new java.awt.Dimension( 91, 35 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton9ActionPerformed", true ) )
+			} )
+			add( new FormContainer( "View.Board", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {space :0:1032:x}"
+				"$verticalGroup": "par l {space :0:374:x}"
+			} ) {
+				name: "myboard"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"toolTipText": ""
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton14"
+				"text": "Oval"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton14ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "jSeparator8"
+				"orientation": 1
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "jSeparator9"
+				"orientation": 1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton16"
+				"background": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Tahoma", 2, 12 )
+				"text": "Brush"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton16ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton15"
+				"text": "Square"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton15ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton18"
+				"text": "Right Triangle"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton18ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "sizeOfBrush"
+				"font": new java.awt.Font( "Tahoma", 2, 11 )
+				"text": "Size of Brush"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "sizeOfBrushActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton3"
+				"text": "Save as PNG"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton3ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton4"
+				"text": "Delete"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton4ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton17"
+				"text": "Resize"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton17ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton19"
+				"text": "Exit"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton19ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton20"
+				"text": "Move"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton20ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "jButton21"
+				"text": "Copy"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton21ActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 1040, 660 )
+			"location": new java.awt.Point( 0, 0 )
+		} )
+	}
+}
